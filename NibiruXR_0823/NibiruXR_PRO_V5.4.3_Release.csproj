@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F3330C8-18FB-EA1D-8C2D-CABA9AD2978D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.4.3f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_3;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;NIBIRU_VR</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_3;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;NIBIRU_VR</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Setup/Unity/Editor/5.4.3f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Setup/Unity/Editor/5.4.3f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Setup/Unity/Editor/5.4.3f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Setup/Unity/Editor/5.4.3f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>D:/Setup/Unity/Editor/5.4.3f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>D:/Setup/Unity/Editor/5.4.3f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\Apis.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\BackButton.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\CameraTeleportTest.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\DragTest.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\FirstScene.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\GazeTest.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\HmdType.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\InputTest.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\NoloControllerTestEvent.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\NoloPoseTest.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\SixdofTest.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Android\TouchpadSample.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\ButtonListener.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Common\CubeButtonGaze.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Common\SDKVersion.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\FPS.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\FollowHead.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\HandleShakeTest.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\JoystickListener.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\PlayVolumeAnim.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Power.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Pro\MarkerTestScript.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Pro\Nibiru6DofTest.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Pro\NibiruVoiceGesture.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Pro\PluginStatus.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Pro\RecordTestScript.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Quit.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\SceneHelper.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\ServiceDemo.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\SystemApiScript.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\Teleport.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\TeleportService.cs" />
+    <Compile Include="Assets\NXR\Samples\Scripts\UIController.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Common\FpsStatistics.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Common\SettingsAssetConfig.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Core\CameraPreviewScript.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Core\CameraPreviewerHelper.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Core\NxrHandleShake.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Core\NxrNotificationScript.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Core\NxrOverrideSettings.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Core\NxrPluginEvent.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Emulator\ARDeviceEvent.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Emulator\NibiruEmulatorClientSocket.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Emulator\NibiruEmulatorManager.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\GazeInputModule.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Impl\NxrDeviceImpl.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\AndroidDevice.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\BaseARDevice.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\BaseAndroidDevice.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\Controller\NxrButtonEvent.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\Controller\NxrControllerHelper.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\Controller\NxrControllerManager.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\Controller\NxrControllerModel.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\Controller\NxrFlipY.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\Controller\NxrInstantNativeApi.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\Controller\NxrLaserPointer.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\Controller\NxrTrackedDevice.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\EditorDevice.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\NxrCameraUtils.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\NxrDevice.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\NxrEye.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\NxrHead.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\NxrInput.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\NxrPostRender.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\NxrPreRender.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\NxrProfile.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\NxrStereoController.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Internal\StereoRenderEffect.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Marker\ARUtilityFunctions.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Marker\CameraPreviewForMarker.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Marker\NibiruMarker.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Marker\NibiruMarkerCamera.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\NibiruSystemUITeleport.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\NxrFPS.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\NxrGlobal.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\NxrHeadControl.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\NxrSDKApi.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\NxrViewer.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\NxrVuforiaSplash.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\OBJLoader\ObjMaterial.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\OBJLoader\ObjMesh.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\OBJLoader\ObjModelLoader.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Pose3D.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Recognize\RecognizeApi.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Recognize\RecognizeScript.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\INibiruGestureListener.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\INibriuVoiceListener.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\Loom.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\NibiruRemindBox.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\NibiruRemindBoxBase.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\NibiruRemindBoxEvent.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\NibiruSensorEvent.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\NibiruService.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\NibiruShutDownBox.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\NibiruShutDownBoxEvent.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Service\NibiruVirtualMouse.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\SpriteLoader\SpriteLoader.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\INxrButtonListener.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\INxrGazePointer.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\INxrGazeResponder.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\INxrJoystickListener.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\NxrDragableItem.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\NxrInteractive.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\NxrLineOfSight.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\NxrReticle.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\NxrUICanvas.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\NxrUIGraphicRaycaster.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\UI\NxrUIPointer.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Util\LocalizationManager.cs" />
+    <Compile Include="Assets\NXR\Scripts\Api\Util\LocalizationText.cs" />
+    <Compile Include="Assets\NXR\Scripts\KeyBoard\NibiruCoreStaticDataManager.cs" />
+    <Compile Include="Assets\NXR\Scripts\KeyBoard\NibiruKeyBoard.cs" />
+    <Compile Include="Assets\NXR\Scripts\KeyBoard\NibiruKeyBoardMono.cs" />
+    <Compile Include="Assets\NXR\Scripts\KeyBoard\NibiruKeyBoardSingle.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\Controller\CBikeEvent.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\Controller\CDevice.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\Controller\CGestureEvent.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\Controller\CKeyEvent.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\Controller\CMotionType.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\Controller\CSensorEvent.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\Controller\ConnectState.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\Controller\ControllerAndroid.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\Controller\InteractionManager.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\Controller\NibiruControllerPower.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\NibiruTaskApi.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\NibiruTaskConstants.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\NineAxisController\NxrPlayerCtrl.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\NxrArmModel.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\NxrBaseArmModel.cs" />
+    <Compile Include="Assets\NXR\Scripts\Task\ThemeData\ThemeApiData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\NXR\Resources\BackMesh.shader" />
+    <None Include="Assets\NXR\Resources\Chinese.txt" />
+    <None Include="Assets\NXR\Resources\Controller\Objs\1002\controller_config.xml" />
+    <None Include="Assets\NXR\Resources\Controller\Objs\108\controller_config.xml" />
+    <None Include="Assets\NXR\Resources\Controller\Objs\14\controller_config.xml" />
+    <None Include="Assets\NXR\Resources\Controller\Objs\21\controller_config.xml" />
+    <None Include="Assets\NXR\Resources\Controller\Objs\22\controller_config.xml" />
+    <None Include="Assets\NXR\Resources\Controller\Objs\26\controller_config.xml" />
+    <None Include="Assets\NXR\Resources\Controller\Objs\default\controller_config.xml" />
+    <None Include="Assets\NXR\Resources\English.txt" />
+    <None Include="Assets\NXR\Resources\Materials\FlipY.shader" />
+    <None Include="Assets\NXR\Resources\NarReticleShader.shader" />
+    <None Include="Assets\NXR\Resources\NibiruDistortionConfig.txt" />
+    <None Include="Assets\NXR\Resources\RemindColor.shader" />
+    <None Include="Assets\NXR\Resources\SolidColor.shader" />
+    <None Include="Assets\NXR\Resources\Text\KeyBoardInfo.txt" />
+    <None Include="Assets\NXR\Resources\UIOverlay.shader" />
+    <None Include="Assets\NXR\Resources\UnlitTexture.shader" />
+    <None Include="Assets\NXR\Resources\UnlitTextureOffaxis.shader" />
+    <None Include="Assets\NXR\Samples\Resources\SenceShader.shader" />
+    <None Include="Assets\NXR\Shaders\NibiruMovementBorder.shader" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\assets\coco_labels_list.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
